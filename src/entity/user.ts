@@ -19,7 +19,7 @@ export class UserEntity {
   password!: string;
 
   @Column({ nullable: true })
-  phone!: string;
+  phone!: number;
 
   @Column({ type: "enum", enum: ["admin", "user"], default: "user" })
   role!: "admin" | "user";

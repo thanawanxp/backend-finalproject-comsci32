@@ -6,10 +6,32 @@
     "dev": "bun run --watch src/index.ts"
   },
   "dependencies": {
-    "elysia": "latest"
+    "@elysiajs/cors": "^1.2.0",
+    "@elysiajs/jwt": "^1.2.0",
+    "@elysiajs/static": "^1.2.0",
+    "@elysiajs/swagger": "^1.2.2",
+    "@grotto/logysia": "^0.1.6",
+    "@otherguy/elysia-logging": "^0.0.17",
+    "@types/bcrypt": "^5.0.2",
+    "@types/bun": "^1.2.8",
+    "@types/jsonwebtoken": "^9.0.9",
+    "add": "^2.0.6",
+    "axios": "^1.8.4",
+    "bcryptjs": "^3.0.2",
+    "bun": "^1.2.8",
+    "cookie": "^1.0.2",
+    "dotenv": "^16.4.7",
+    "elysia": "latest",
+    "formidable": "^3.5.3",
+    "fs": "^0.0.1-security",
+    "jsonwebtoken": "^9.0.2",
+    "logestic": "^1.2.4",
+    "mysql2": "^3.14.0",
+    "typeorm": "^0.3.22"
   },
   "devDependencies": {
-    "bun-types": "latest"
+    "bun-types": "^1.2.8",
+    "typescript": "^5.7.3"
   },
   "module": "src/index.js"
 }
